@@ -1,9 +1,48 @@
 /* 1 header */
+.hd__top{
+  height: 34px;
+  background-color: green;
+}
 
+header{
+  height: 56px;
+  background-color: red;
+}
+
+.banner{
+  height: 400px;
+  background-size: cover;
+  background-position:center;
+  background-image: url("https://sinhtour.vn/wp-content/uploads/2021/11/banner-chuan-sinhtour-scaled.jpg");
+}
 /* 2 top 10 địa điểm hot  */
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  width: 80%;
+  background-color: blue;
+  height: 2000px;
+}
+
+.hot-Places{
+
+}
 
 /* 3 du lịch theo miền  */
+.regions{
+
+}
 
 /* 4 du lịch theo mùa  */
+.seasons{
+
+}
 
 /* 5 footer */
+footer{
+
+}
