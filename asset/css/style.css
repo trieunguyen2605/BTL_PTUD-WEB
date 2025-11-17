@@ -44,5 +44,6 @@ main{
 
 /* 5 footer */
 footer{
-
+  height: 200px;
+  background-color: #000;
 }
