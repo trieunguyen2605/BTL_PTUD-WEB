@@ -1,3 +1,4 @@
+
 /* header-top */
 .hd__top{
   height: 34px;
@@ -75,35 +76,45 @@ header{
 .banner{
   height: 400px;
   background-size: cover;
-  background-position:center;
+  background-position: center;
   background-image: url("https://sinhtour.vn/wp-content/uploads/2021/11/banner-chuan-sinhtour-scaled.jpg");
 }
+
 /* 2 top 10 địa điểm hot  */
-main{
+main {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container{
+.container {
   width: 80%;
 }
 
-.hot-Places{
+.hot-Places {}
+
+/* 3 du lịch theo miền  */
+.regions {}
+
+.rg-dm {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
 
 }
 
-/* 3 du lịch theo miền  */
-.regions{
+.rg-noidung {
+  display: flex;
+  justify-content: space-between;
 
+}
+
+.rg-noidung-anh {
+  margin: 10px
 }
 
 /* 4 du lịch theo mùa  */
-.seasons{
-
-}
+.seasons {}
 
 /* 5 footer */
-footer{
-
-}
+footer {}
