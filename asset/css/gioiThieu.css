@@ -8,6 +8,25 @@
   width: 80%;
 }
 
+.introduce__head{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.introduce__home{
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduce__link{
+  position: absolute;
+  left: 0;
+  margin-right: 30px;
+}
+
 .introduce__title{
   text-align: center;
 }
