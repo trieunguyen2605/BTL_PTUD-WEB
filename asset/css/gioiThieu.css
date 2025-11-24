@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.introduce{
+  width: 80%;
+}
+
+.introduce__title{
+  text-align: center;
+}
+
+.in__wrap{
+  display: flex;
+}
+
+.in__left{
+  width: 50% ;
+  font-size: 17px;
+}
+
+.in__right{
+  width: 50%;
+}
+
+.in__img{
+  width: 100%;
+}
