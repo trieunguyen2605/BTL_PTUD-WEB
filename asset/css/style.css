@@ -75,10 +75,43 @@ header{
 
 /* Banner   */
 .banner{
+  position: relative;
   height: 400px;
+  margin-bottom: 20px;
   background-size: cover;
   background-position: center;
   background-image: url("https://sinhtour.vn/wp-content/uploads/2021/11/banner-chuan-sinhtour-scaled.jpg");
+}
+
+.header__search{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translateX(50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__input{
+  position: relative;
+  padding: 14px 20px 12px;
+  width: 450px;
+  outline: none;
+  line-height: 20px;
+  font-size: 18px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  color: rgb(93, 95, 95);
+}
+
+.hd__search-icon{
+  position: absolute;
+  top: 50%;
+  right: 24px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  z-index: 2;
 }
 
 /* 2 top 10 địa điểm hot  */
