@@ -129,7 +129,24 @@ main {
   width: 80%;
 }
 
-.hot-Places {}
+.hot-places{
+  background-color: aliceblue;
+}
+.hp-recently{
+  display: flex;
+  
+  overflow-x: auto;
+}
+.hp-recently-infor{
+  width: 25%;
+  margin-left: 5px;
+
+}
+.hp-recently-infor img{
+  width: 100%;
+  border-radius: 50%;
+}
+
 
 /* 3 du lịch theo miền  */
 .regions {}
