@@ -1,0 +1,48 @@
+.container {
+    display: flex;
+}
+
+.news {
+    display: flex;
+
+}
+
+.trai {
+    background-color: rgb(248, 244, 244);
+    width: 60%;
+    height: auto;
+}
+
+.khampha {
+    font-size: 20px;
+}
+
+.phai {
+    background-color: rgb(250, 139, 139);
+    width: 30%;
+    height: auto;
+    align-items: center;
+    position: fixed;
+    right: 5%;
+    top: 2%;
+    left: 65%;
+}
+
+.nd {
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+}
+
+.nd-phu {
+    margin: auto;
+}
+
+.img-1 {
+    width: 100%;
+}
+
+.img-2 {
+    width: 70%;
+
+}
