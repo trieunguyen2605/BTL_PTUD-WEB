@@ -130,17 +130,38 @@ main {
 }
 .hp-recently{
   display: flex;
-  
+  justify-items: auto;
   overflow-x: auto;
 }
 .hp-recently-infor{
-  width: 25%;
+  width: 23%;
   margin-left: 5px;
 
 }
 .hp-recently-infor img{
   width: 100%;
   border-radius: 50%;
+  ;
+}
+.hp-recently-content{
+  width: 100%;
+}
+.hp-year{
+  display: flex;
+  justify-items: auto;
+  overflow-x: auto;
+}
+.hp-year-infor{
+  width: 25%;
+  margin-left: 5px;
+
+}
+.hp-year-infor img{
+  width: 100%;
+  border-radius:0;
+}
+.hp-year-content{
+  width: 100%;
 }
 
 
