@@ -128,40 +128,55 @@ main {
 
 .container {
   width: 80%;
+  padding: 0 20px;
 }
 
 .hot-places{
   display: flex;
   flex-direction: column;
   background-color: aliceblue;
+  padding: 0 20px 30px 20px;
 }
-.hp-recently{
+.hp-recently,
+.hp-year{
   display: flex;
   overflow-x: auto;
 }
-.hp-recently-infor{
-  width: 23%;
-  margin-left: 5px;
 
+.hp-recently::-webkit-scrollbar,
+.hp-year::-webkit-scrollbar{
+  display: none;
 }
+
+.hp-recently-infor,
+.hp-year-infor {
+  width: 24.3%;
+  padding-right: 10px;
+  flex-shrink: 0;
+}
+
 .hp-recently-infor img{
   width: 100%;
   border-radius: 50%;
-  ;
 }
+
 .hp-recently-content{
   width: 100%;
+  text-align: center;
 }
-.hp-year{
+
+/* .hp-year{
   display: flex;
   justify-items: auto;
   overflow-x: auto;
-}
-.hp-year-infor{
-  width: 23%;
-  margin-left: 5px;
+} */
+/* .hp-year-infor{
+    width: 24.3%;
+  padding-right: 10px;
+  flex-shrink: 0;
 
-}
+} */
+
 .hp-year-infor img{
   width: 100%;
   border-radius:0;
