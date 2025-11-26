@@ -273,7 +273,42 @@ main {
 }
 
 /* 5 footer */
-footer {}
+footer {
+  background-color:#4CB5F5;
+  font-size:14px;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  color: black;
+}
+
+.ft-hotline {
+  display: flex;
+  flex-direction: column;   
+  gap: 15px;                
+  margin: 20px 0;
+}
+.hotline-box1 {
+  display: flex;
+  background-color: pink;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
+.hotline-box2 {
+  display: flex;
+  background-color:aquamarine;
+  align-items: center;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  padding: 5px 5px;
+  border-radius: 10px;
+}
 
 
 /* modal - Triệu  */
