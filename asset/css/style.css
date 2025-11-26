@@ -208,6 +208,69 @@ main {
 
 /* 4 du lịch theo mùa  */
 .seasons {}
+.ss-tren{
+  display: flex;
+  justify-content: space-between; 
+}
+.ss-tren-trai{
+  width: 50%;
+  margin-left: 10px;
+}
+.ss-tren-phai{
+  display: flex;
+  align-items: center;
+}
+.ss-tren-phai a{
+  font-size: smaller;
+  color:rgb(51, 98, 98);
+  text-decoration: none;
+  transition: transform 0.3s ease-in-out;
+}
+.ss-tren-phai a:hover{
+  color:rgb(123, 161, 123) ;
+  transform: scale(1.1);
+}
+.ss-duoi{
+  background-color: aquamarine;
+}
+.ss-tenmua h3{
+  margin-left: 10px;
+}
+.ss-mua-noi{
+  width: 100%;
+}
+.ss-noi-điaiem{
+  display: flex;
+  overflow-x:scroll;
+}
+.ss-noi-điaiem::-webkit-scrollbar{
+  display: none;
+}
+.ss-diadiem-anh{
+  flex-shrink: 0;
+  width:30%;
+  margin: 10px;
+}
+.ss-diadiem-anh a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  transition: transform 0.3s ease-in-out;
+}
+.ss-diadiem-anh a:hover{
+  transform: scale(1.1);
+  color:rgb(123, 161, 123);
+  z-index: 10;
+}
+.ss-diadiem-anh img{
+  width: 100%;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.ss-diadiem-anh img:hover{
+  transform: scale(1.1);
+  /* z-index: 10; */
+}
 
 /* 5 footer */
 footer {}
