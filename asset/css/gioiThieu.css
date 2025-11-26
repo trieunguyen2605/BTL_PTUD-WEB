@@ -40,10 +40,15 @@
   font-size: 17px;
 }
 
+
+
 .in__right{
   width: 50%;
 }
 
+.in__text{
+  margin: 0;
+}
 .in__img{
   width: 100%;
 }
