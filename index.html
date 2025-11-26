@@ -21,7 +21,7 @@
     <p class="hd__top-title">Have a good day </p>
     <ul class="hd__top-list">
       <li class="hd__top-item">0394759392 - 0961795306</li>
-      <li class="hd__top-item"> Tài khoản </li>
+      <li class="hd__top-item" id="hd__account"> Tài khoản </li>
     </ul>
   </div>
 </div>
@@ -304,22 +304,41 @@
 <!-- modal: đắng kí , đăng nhập -->
   <div class="modal-overlay">
     <div class="modal">
-      <h2 class="modal__header">Đăng ký</h2>
+      <div class="modal__header-title">
+        <h2 class="modal__header hd__login">Đăng nhập</h2>
+        <p>/</p>
+        <h2 class="modal__header hd__register">Đăng ký </h2>
+      </div>
       <div class="modal__wrap">
-        <div class="modal__body">
-          <div class="modal__input">
-            <p class="modal__title">Email </p>
-            <input type="text">
+        <div class="modal__wrap-login">
+          <div class="modal__body">
+            <div class="modal__input">
+              <p class="modal__title">Email </p>
+              <input type="text">
+            </div>
+            <div class="modal__input">
+              <p class="modal__title"> Password</p>
+              <input type="text">
+            </div>
           </div>
-          <div class="modal__input">
-            <p class="modal__title"> Password</p>
-            <input type="text">
+          <div class="modal__forget">
+            <a class="modal__forget-link" href="">Quên mật khẩu?</a>
           </div>
+          <button class="modal__btn">Đăng nhập </button>
         </div>
-        <div class="modal__forget">
-          <a class="modal__forget-link" href="">Quên mật khẩu?</a>
+        <div class="modal__wrap-register">
+          <div class="modal__body">
+            <div class="modal__input">
+              <p class="modal__title">Email </p>
+              <input type="text">
+            </div>
+            <div class="modal__input">
+              <p class="modal__title"> Password</p>
+              <input type="text">
+            </div>
+          </div>
+          <button class="modal__btn">Đăng ký </button>
         </div>
-        <button class="login-btn">Đăng ký </button>
       </div>
     </div>
   </div>
