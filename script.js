@@ -6,7 +6,8 @@ const registerElement = document.querySelector(".modal__wrap-register");
 const accountElement = document.querySelector("#hd__account");
 const modalOverlay = document.querySelector(".modal-overlay");
 const modalElement = document.querySelector(".modal");
-console.log(modalElement)
+const modalClose = document.querySelector("#modal__close");
+console.log(modalClose);
 
 //---------- Đăng kí đăng nhập--------------- 
 accountElement.addEventListener("click",()=>{
@@ -21,6 +22,10 @@ modalElement.addEventListener("click",(e)=>{
   e.stopPropagation(); // tránh hiệu ứng nổi bọt , khi ấn vào con mà cha bị tác dụng 
 })
 
+// nút đóng modal 
+modalClose.addEventListener("click",()=>{
+  modalOverlay.style.display = "none";
+})
 // ấn vô đăng kí 
 registerTitle.addEventListener("click",()=>{
   // thanh màu xanh dưới chân 

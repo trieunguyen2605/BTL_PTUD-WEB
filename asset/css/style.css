@@ -30,6 +30,7 @@ body{
 
 .hd__top-item{
   color: white;
+  cursor: pointer;
 }
 
 /*  header */
@@ -238,6 +239,12 @@ footer {}
   flex-direction: column;
   width: 440px;
   overflow: hidden;
+}
+
+#modal__close{
+  width: 100%;
+  display: flex;
+  justify-content: end;
 }
 
 .modal__header-title{
